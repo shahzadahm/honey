@@ -1,6 +1,6 @@
 # लक्ष्मी ज्वेलर्स (Laxmi Jewellers) & सुभाष चन्द अमित कुमार ज्वेलर्स
 
-A modern, responsive, uncluttered luxury landing page for **लक्ष्मी ज्वेलर्स (Laxmi Jewellers)** and **सुभाष चन्द अमित कुमार ज्वेलर्स** (मोरवाल परिवार).
+A modern, responsive, uncluttered luxury landing page for **लक्ष्मी ज्वेलर्स (Laxmi Jewellers)** and **सुभाष चन्द अमित कुमार ज्वेलर्स** (मोदनवाल परिवार).
 
 ---
 
@@ -11,7 +11,7 @@ A modern, responsive, uncluttered luxury landing page for **लक्ष्म�
 - **Shop Names:** 
   1. लक्ष्मी ज्वेलर्स (Laxmi Jewellers)
   2. सुभाष चन्द अमित कुमार ज्वेलर्स (Subhash Chand Amit Kumar Jewelers)
-- **Family & Proprietors:** श्री. खुशाल चन्द्र मोरवाल, श्री. सुभाष चन्द मोरवाल, अमित कुमार मोरवाल (Morwal Family)
+- **Family & Proprietors:** श्री. कुशल चन्द्र मोदनवाल, श्री. सुभाष चन्द मोदनवाल, अमित कुमार मोदनवाल (Modanwal Family)
 - **First Mobile Number:** `8574591059`
 - **Second Mobile Number:** `7394993006`
 - **WhatsApp:** [https://wa.me/917394993006](https://wa.me/917394993006) (`7394993006`)
