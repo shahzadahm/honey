@@ -10,6 +10,18 @@ document.addEventListener('DOMContentLoaded', () => {
     yearElement.textContent = new Date().getFullYear();
   }
 
+  // Header bottom position for mobile drawer
+  function updateHeaderBottom() {
+    const header = document.querySelector('.site-header');
+    if (header) {
+      const rect = header.getBoundingClientRect();
+      document.documentElement.style.setProperty('--header-bottom', `${rect.bottom}px`);
+    }
+  }
+  updateHeaderBottom();
+  window.addEventListener('resize', updateHeaderBottom);
+  window.addEventListener('scroll', updateHeaderBottom, { passive: true });
+
   // Mobile menu toggle
   const mobileToggle = document.getElementById('mobile-toggle');
   const mobileDrawer = document.getElementById('mobile-drawer');
@@ -17,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (mobileToggle && mobileDrawer) {
     mobileToggle.addEventListener('click', () => {
+      updateHeaderBottom();
       const isOpen = mobileDrawer.classList.toggle('open');
       mobileToggle.classList.toggle('active');
       mobileToggle.setAttribute('aria-expanded', isOpen);
