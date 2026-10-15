@@ -974,6 +974,100 @@ button {
 }
 
 /* ==========================================================================
+   Festive Badhai & Auspicious Banner Styles
+   ========================================================================== */
+
+.festive-greeting-banner {
+  background: linear-gradient(135deg, #2f070c 0%, #4a0e17 50%, #23060a 100%);
+  border-top: 2px solid var(--color-gold);
+  border-bottom: 2px solid var(--color-gold);
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 25px rgba(35, 6, 10, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.festive-greeting-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+@media (min-width: 992px) {
+  .festive-greeting-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 2rem;
+  }
+}
+
+.festive-icon-cluster {
+  font-size: 1.75rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.festive-text-wrapper {
+  flex-grow: 1;
+}
+
+.festive-heading-hi {
+  font-family: var(--font-devanagari);
+  font-size: 1.2rem;
+  color: var(--color-gold-light);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  line-height: 1.35;
+}
+
+@media (min-width: 768px) {
+  .festive-heading-hi {
+    font-size: 1.45rem;
+  }
+}
+
+.festive-sub-en {
+  font-size: 0.86rem;
+  color: #f7efe6;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.btn-festive-enquiry {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--grad-gold);
+  color: var(--color-maroon-dark);
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 9999px;
+  border: 1px solid #f9e28f;
+  box-shadow: 0 4px 15px rgba(197, 155, 39, 0.35);
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-height: 44px;
+  width: 100%;
+  transition: var(--transition-smooth);
+}
+
+@media (min-width: 576px) {
+  .btn-festive-enquiry {
+    width: auto;
+  }
+}
+
+.btn-festive-enquiry:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+
+/* ==========================================================================
    Featured Jewellery Collections Section
    ========================================================================== */
 
