@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (lightboxEnquireBtn) {
       const msg = encodeURIComponent(`नमस्ते Laxmi Jewellers, मुझे "${titleHi} (${titleEn})" के बारे में जानकारी चाहिए।`);
-      lightboxEnquireBtn.href = `https://wa.me/918574591059?text=${msg}`;
+      lightboxEnquireBtn.href = `https://wa.me/917394993006?text=${msg}`;
     }
 
     lightbox.classList.add('active');
