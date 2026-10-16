@@ -1,5 +1,5 @@
 /* ==========================================================================
-   लक्ष्मी ज्वेलर्स · Laxmi Jewellers
+   सुभाष चन्द विवेक कुमार ज्वेलर्स · Subhash Chand Vivek Kumar Jewellers
    Design system: "Alaṅkāra" — ivory & pearl grounds, oxblood accents drawn
    from the velvet in our photography, antique gold reserved for hairlines.
    ========================================================================== */
@@ -406,21 +406,25 @@ em { font-style: italic; }
 .brand {
   display: flex;
   flex-direction: column;
-  line-height: 1;
-  gap: 6px;
+  line-height: 1.15;
+  gap: 4px;
+  min-width: 0;
 }
 .brand__hi {
   font-family: var(--font-deva);
-  font-size: 1.5rem;
-  line-height: 1.1;
+  font-size: clamp(1.05rem, 0.85rem + 1vw, 1.45rem);
+  line-height: 1.15;
   color: var(--c-oxblood);
+  font-weight: 600;
+  white-space: normal;
 }
 .brand__en {
-  font-size: 0.6rem;
+  font-size: clamp(0.5rem, 0.44rem + 0.2vw, 0.62rem);
   font-weight: 500;
-  letter-spacing: 0.34em;
+  letter-spacing: clamp(0.12em, 0.08em + 0.1vw, 0.24em);
   text-transform: uppercase;
   color: var(--c-ink-2);
+  white-space: normal;
 }
 
 .header__nav { display: none; }
@@ -493,7 +497,8 @@ em { font-style: italic; }
   }
   .header__nav--right { justify-content: flex-end; }
   .brand { grid-column: 2; align-items: center; text-align: center; }
-  .brand__hi { font-size: 1.7rem; }
+  .brand__hi { font-size: 1.55rem; }
+  .brand__en { font-size: 0.62rem; letter-spacing: 0.22em; }
   .menu-toggle { display: none; }
 }
 

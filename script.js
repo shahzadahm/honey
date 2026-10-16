@@ -1,11 +1,16 @@
 /**
- * लक्ष्मी ज्वेलर्स (Laxmi Jewellers)
- * Mobile menu, lightbox enquiries, scroll reveals and active navigation.
+ * सुभाष चन्द विवेक कुमार ज्वेलर्स (Subhash Chand Vivek Kumar Jewellers)
+ * Mobile menu, lightbox enquiries, scroll reveals, festival engine, and active navigation.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   const WHATSAPP = '917394993006';
   const body = document.body;
+
+  // Initialize Festival Automation Engine
+  if (typeof FestivalManager !== 'undefined' && typeof FestivalManager.init === 'function') {
+    FestivalManager.init();
+  }
 
   // Dynamic copyright year
   const yearElement = document.getElementById('current-year');
@@ -66,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (lightboxTitleEn) lightboxTitleEn.textContent = titleEn || '';
 
     if (lightboxEnquire) {
-      const msg = encodeURIComponent(`नमस्ते Laxmi Jewellers, मुझे "${titleHi} (${titleEn})" के बारे में जानकारी चाहिए।`);
+      const msg = encodeURIComponent(`नमस्ते Subhash Chand Vivek Kumar Jewellers, मुझे "${titleHi} (${titleEn})" के बारे में जानकारी चाहिए।`);
       lightboxEnquire.href = `https://wa.me/${WHATSAPP}?text=${msg}`;
     }
 
